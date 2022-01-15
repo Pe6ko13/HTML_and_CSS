@@ -1,0 +1,30 @@
+td {
+    Border-width: 1px;
+    Border-color: rgb(221, 221, 221);
+    Border-style: solid;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(241, 241, 241);
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    Border-width: 1px;
+    Border-color: rgb(221, 221, 221);
+    Border-style: solid;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(221, 221, 221);
+    Border-width: 1px;
+    Border-color: rgb(221, 221, 221);
+    Border-style: solid;
+}
+
+tr:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
