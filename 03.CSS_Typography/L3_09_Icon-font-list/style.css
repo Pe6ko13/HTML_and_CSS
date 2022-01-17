@@ -1,0 +1,11 @@
+li {
+    list-style: none;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+i {
+    margin-right: 8px;
+}

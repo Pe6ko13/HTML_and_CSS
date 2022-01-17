@@ -1,0 +1,21 @@
+.button1 {
+    background-color: green;
+    color: honeydew;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.button2 {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+p {
+    margin: 64px;
+}
+
+.button1, .button2:hover {
+    cursor: pointer;
+}
