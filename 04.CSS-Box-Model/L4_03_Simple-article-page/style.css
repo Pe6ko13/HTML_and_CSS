@@ -1,0 +1,14 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: black;
+}
+
+article {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+img {
+    max-width: 600px;
+}
