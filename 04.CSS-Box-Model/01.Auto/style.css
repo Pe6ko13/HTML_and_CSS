@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=PT+Sans&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 1500px;
+  margin: 30px auto;
+}
+
+h2,
+h4 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.content,
+.img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content {
+  width: 47%;
+}
+
+.img {
+  width: 48%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.benefits-list {
+  padding-left: 0px;
+  margin-top: 30px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.list-item-img,
+.list-item-content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.list-item-content h4,
+.list-item-content p {
+  margin: 4px 0px;
+}
+
+.list-item-img {
+  max-width: 120px;
+}
+
+.list-item-img img {
+  width: 60px;
+}

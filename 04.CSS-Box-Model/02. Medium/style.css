@@ -1,0 +1,57 @@
+main {
+  max-width: 950px;
+  margin: 30px auto;
+}
+
+.header-title {
+  margin: 8px 0px;
+}
+
+.header-subtitle {
+  color: rgb(95, 95, 95);
+  font-weight: 300;
+  margin: 8px 0px;
+}
+
+.content-btn,
+.content-text {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.content-text {
+  width: 42%;
+  margin-left: 150px;
+}
+
+.btn {
+  background-color: rgb(9, 160, 9);
+  color: beige;
+  padding: 8px 64px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content-title {
+  margin: 26px 0;
+}
+
+.bgd-green {
+  background-color: #cefde9;
+}
+
+.content-text p {
+  color: rgb(95, 95, 95);
+  font-weight: 200;
+}
+
+hr {
+  width: 35%;
+  margin-top: 60px;
+  background-color: rgb(155, 153, 153);
+  height: 1px;
+  border: none;
+}
