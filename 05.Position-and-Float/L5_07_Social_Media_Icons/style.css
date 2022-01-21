@@ -1,0 +1,42 @@
+body {
+  max-width: 600px;
+  margin: 400px auto;
+}
+
+.list li {
+  display: inline;
+  padding: 16px 16px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 50%;
+  font-size: 26px;
+  margin: 10px;
+  list-style-type: none;
+}
+
+a {
+  color: rgb(49, 49, 49);
+}
+
+.face a {
+  padding-left: 6px;
+}
+
+.face a:hover {
+  color: rgb(26, 108, 214);
+}
+
+.twit a:hover {
+  color: rgb(128, 183, 255);
+}
+
+.google a:hover {
+  color: crimson;
+}
+
+.link a:hover {
+  color: rgb(34, 111, 255);
+}
+
+.insta a:hover {
+  color: cadetblue;
+}
