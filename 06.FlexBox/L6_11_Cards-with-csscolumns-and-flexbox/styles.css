@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(209, 209, 209);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.cards-layout {
+  max-width: 1500px;
+  margin: 120px auto;
+}
+
+.masonary {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 1942px;
+}
+
+.masonary h2 {
+  flex-direction: row;
+  font-size: 32px;
+  position: absolute;
+  top: 30px;
+}
+
+.card {
+  background-color: rgb(253, 253, 253);
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 1px rgb(104, 104, 104);
+  max-width: 430px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+img {
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.card-footer {
+  border-top: 1px solid rgb(209, 209, 209);
+  padding: 16px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex h2 {
+  flex-basis: 100%;
+  font-size: 32px;
+}
+
+.flex .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex .content {
+  flex-grow: 1;
+}

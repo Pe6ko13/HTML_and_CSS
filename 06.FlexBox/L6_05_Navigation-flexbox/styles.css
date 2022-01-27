@@ -1,0 +1,26 @@
+body {
+  max-width: 1600px;
+  margin: 40px auto;
+}
+
+header {
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: rgb(9, 155, 9);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 16px;
+}
