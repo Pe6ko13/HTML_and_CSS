@@ -1,0 +1,292 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, sans-serif;
+}
+
+nav {
+  background-color: white;
+  padding: 15px 80px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 8px 1px gray;
+}
+
+.nav-menu {
+  display: flex;
+  padding: 0;
+}
+
+.nav-menu li {
+  list-style-type: none;
+  margin: 0 8px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: rgb(87, 82, 92);
+  font-weight: bolder;
+}
+
+.nav-menu li .btn {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 16px;
+  padding: 8px 16px;
+}
+
+@media all and (max-width: 1210px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav img {
+    margin-bottom: 24px;
+  }
+
+  .nav-menu {
+    flex-wrap: wrap;
+  }
+
+  .nav-menu li {
+    margin: 8px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.diploma {
+  padding: 55px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.diploma-content {
+  margin-right: 50px;
+}
+
+.content-title {
+  color: rgb(87, 82, 92);
+  margin-top: 0;
+}
+
+.content-subs {
+  color: rgb(87, 82, 92);
+  font-size: 12px;
+}
+
+.diploma-img {
+  position: relative;
+}
+
+.diploma-img::before {
+  border-radius: 50%;
+  content: "";
+  background: rgb(79, 72, 99);
+  width: 548px;
+  height: 548px;
+  position: absolute;
+  top: -335px;
+  left: -16px;
+  z-index: -1;
+}
+
+.diploma-img::after {
+  background: url(./images/award.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: -89px;
+  right: -110px;
+  width: 200px;
+  height: 200px;
+  z-index: 0;
+}
+
+.diploma-img img {
+  position: relative;
+  z-index: 1;
+}
+
+@media all and (max-width: 1000px) {
+  .diploma {
+    flex-direction: column;
+  }
+
+  .diploma-img::before,
+  .diploma-img::after {
+    width: 0;
+    height: 0;
+  }
+
+  .diploma-img {
+    margin-top: 36px;
+  }
+
+  .diploma-img img {
+    width: 100%;
+  }
+
+  .diploma-content {
+    margin-right: 0;
+  }
+}
+
+.certificates {
+  background: #14162b;
+  color: white;
+  padding: 25px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.certificates-img {
+  flex-basis: 35%;
+  position: relative;
+  top: 50px;
+  margin-left: 80px;
+}
+
+.certificates-img img {
+  width: 100%;
+}
+
+@media all and (max-width: 1200px) {
+  .certificates {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .certificates-img {
+    margin-left: 0px;
+  }
+}
+
+.career-assistance {
+  padding: 50px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.career-assistance-img {
+  margin-right: 50px;
+}
+
+.career-assistance-title {
+  color: rgb(87, 82, 92);
+  margin-top: 0;
+}
+
+.career-assistance-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+
+.career-assistance-btn {
+  border: 1px solid purple;
+  border-radius: 32px;
+  color: blueviolet;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+}
+
+@media all and (max-width: 1000px) {
+  .career-assistance {
+    flex-wrap: wrap;
+  }
+
+  .career-assistance-img img {
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .career-assistance-img img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+footer {
+  background-color: #2c2c3a;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 80px;
+}
+
+.footer-title {
+  color: #8f59c6;
+}
+
+.footer-list {
+  padding: 0;
+}
+
+.footer-list-item {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
+.footer-list-item-link {
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+}
+
+.social-media-and-copyright {
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.social-media {
+  margin-bottom: 32px;
+}
+
+i {
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.all-reserved {
+  font-size: 14px;
+}
+
+@media all and (max-width: 1000px) {
+  footer {
+    flex-wrap: wrap;
+  }
+
+  .social-media {
+    margin-top: 20px;
+  }
+}
