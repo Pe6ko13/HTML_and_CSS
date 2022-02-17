@@ -1,0 +1,8 @@
+select {
+  background: #f8f8f8;
+  /* Secondary - 800 * */
+
+  border: 1px solid #ff9100;
+  box-sizing: border-box;
+  border-radius: 4px;
+}

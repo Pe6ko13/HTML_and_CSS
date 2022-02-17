@@ -1,0 +1,10 @@
+.header__info {
+  background-color: #ff9100;
+  color: white;
+  text-align: center;
+  padding: 80px 150px;
+  max-width: 72%;
+}
+
+.header__info p {
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/generic/generic-normalize.css" />
+
+    <link rel="stylesheet" href="./styles/settings/settings-typography.css" />
+
+    <link rel="stylesheet" href="./styles/objects/objects-containers.css" />
+
+    <link rel="stylesheet" href="./styles/elements/el-input-fields.css" />
+    <link rel="stylesheet" href="./styles/elements/el-links.css" />
+
+    <link rel="stylesheet" href="./styles/utilities/utilities-centered.css" />
+    <link rel="stylesheet" href="./styles/utilities/utilities-hidden.css" />
+
+    <link rel="stylesheet" href="./styles/components/comp-button.css" />
+    <link rel="stylesheet" href="./styles/components/comp-card.css" />
+    <link rel="stylesheet" href="./styles/components/comp-filter.css" />
+    <link rel="stylesheet" href="./styles/components/comp-footer.css" />
+    <link rel="stylesheet" href="./styles/components/comp-header.css" />
+    <link rel="stylesheet" href="./styles/components/comp-navigation.css" />
+    <link rel="stylesheet" href="./styles/components/comp-program.css" />
+
+    <title>Document1</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar__wraper container">
+          <article class="navbar__logo">
+            <img
+              class="navbar__logo-triangle"
+              src="./assets/images/triangle.png"
+              alt="triangle"
+            />
+            <img src="./assets/images/logo.png" alt="logo" />
+          </article>
+          <ul class="navbar__elements">
+            <li class="navbar__item">
+              <a href="#">обучения</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">Събития</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">Преподаватели</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">Блог</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">Контакти</a>
+            </li>
+            <li class="navbar__item">
+              <img src="./assets/images/search-icon.png" alt="search" />
+            </li>
+            <button class="btn btn--sec">вход</button>
+          </ul>
+        </div>
+      </nav>
+      <section class="header__info">
+        <h1>Обучения</h1>
+        <p>
+          At dolor amet, enim sit augue donec mauris, ac. Eget leo quam et,
+          morbi. Ut eu hac risus a suscipit cras sagittis viverra gravida.
+          Lobortis amet imperdiet tincidunt quisque accumsan, porta tellus
+          commodo at. Augue ullamcorper suspendisse. Sit morbi risus
+        </p>
+      </section>
+    </header>
+    <main id="main">
+      <section class="filter--wrapper">
+        <div class="filter container">
+          <h4 class="filter__title">Филтър:</h4>
+
+          <label class="filter__label filter__label--level">
+            <img
+              class="filter__label-img"
+              src="./assets/images/fund-icon.svg"
+              alt="level"
+            />
+            <select name="level" id="level">
+              <option value="level">Ниво</option>
+              <option value="basic">Начинаещ</option>
+              <option value="advanced">Напреднал</option>
+              <option value="profi">Професионалист</option>
+            </select>
+            <img
+              class="filter__label-img--info"
+              src="./assets/images/info-question.svg"
+              alt="?"
+            />
+          </label>
+
+          <label class="filter__label">
+            <img
+              class="filter__label-img"
+              src="./assets/images/location-icon.svg"
+              alt="location"
+            />
+            <select name="location" id="location">
+              <option value="location">Локации</option>
+              <option value="Sofia">София</option>
+              <option value="Varna">Варна</option>
+              <option value="Plovdiv">Пловдив</option>
+            </select>
+          </label>
+
+          <label class="filter__label">
+            <img
+              class="filter__label-img"
+              src="./assets/images/people-icon.svg"
+              alt="people"
+            />
+            <select name="suitable" id="suitable">
+              <option value="suitable">Подходящ за</option>
+              <option value="basic">Начинаещ</option>
+              <option value="advanced">Напреднал</option>
+              <option value="profi">Професионалист</option>
+            </select>
+          </label>
+
+          <label class="filter__label">
+            <img
+              class="filter__label-img"
+              src="./assets/images/puzzle-icon.svg"
+              alt="тъпе"
+            />
+            <select name="tech" id="tech">
+              <option value="tech">Технологии</option>
+              <option value="hardware">Хардуеър</option>
+              <option value="software">Софтуеър</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="courses--wraper">
+        <div class="courses container">
+          <article></article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

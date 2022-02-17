@@ -1,0 +1,15 @@
+select {
+  background: #fffefe;
+  border: 1px solid #ff9100;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px 18px;
+  color: #919191;
+  appearance: none;
+  min-height: 45px;
+  min-width: 200px;
+}
+
+select:hover {
+  cursor: pointer;
+}
