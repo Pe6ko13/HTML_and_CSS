@@ -3,15 +3,9 @@
 }
 
 .filter {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .filter__label::after {
@@ -52,7 +46,6 @@
 
 .filter__label-img--info:hover {
   cursor: pointer;
-  -webkit-box-shadow: 2px 2px 3px 1px orange;
-          box-shadow: 2px 2px 3px 1px orange;
+  box-shadow: 2px 2px 3px 1px orange;
   border-radius: 50%;
 }

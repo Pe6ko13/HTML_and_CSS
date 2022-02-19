@@ -2,36 +2,37 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 3px 4px rgba(0, 0, 0, 0.12),
     0px 1px 5px rgba(0, 0, 0, 0.2);
 
-  .navbar__wraper {
+  &__wraper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
 
-    .navbar__logo {
-      display: flex;
-      align-items: center;
+  &__logo {
+    display: flex;
+    align-items: center;
 
-      .navbar__logo-triangle {
-        width: 10px;
-        height: 16px;
-        margin-right: 16px;
-      }
+    &-triangle {
+      width: 10px;
+      height: 16px;
+      margin-right: 16px;
     }
+  }
 
-    .navbar__elements {
-      display: flex;
+  &__elements {
+    display: flex;
+  }
 
-      .navbar__item {
-        margin: 15px 32px;
+  &__item {
+    margin: 15px 32px;
 
-        a {
-          text-transform: uppercase;
-          color: #565656;
-        }
+    a {
+      text-transform: uppercase;
+      color: #565656;
+      transition: color 0.3s ease-out;
 
-        a:hover {
-          color: #ff9100;
-        }
+      &:hover {
+        color: #ff9100;
       }
     }
   }

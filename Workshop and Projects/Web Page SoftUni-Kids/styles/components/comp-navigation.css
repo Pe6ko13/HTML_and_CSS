@@ -3,7 +3,7 @@
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
-.navbar .navbar__wraper {
+.navbar__wraper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,7 +15,7 @@
           align-items: center;
 }
 
-.navbar .navbar__wraper .navbar__logo {
+.navbar__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,27 +24,29 @@
           align-items: center;
 }
 
-.navbar .navbar__wraper .navbar__logo .navbar__logo-triangle {
+.navbar__logo-triangle {
   width: 10px;
   height: 16px;
   margin-right: 16px;
 }
 
-.navbar .navbar__wraper .navbar__elements {
+.navbar__elements {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.navbar .navbar__wraper .navbar__elements .navbar__item {
+.navbar__item {
   margin: 15px 32px;
 }
 
-.navbar .navbar__wraper .navbar__elements .navbar__item a {
+.navbar__item a {
   text-transform: uppercase;
   color: #565656;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 
-.navbar .navbar__wraper .navbar__elements .navbar__item a:hover {
+.navbar__item a:hover {
   color: #ff9100;
 }
