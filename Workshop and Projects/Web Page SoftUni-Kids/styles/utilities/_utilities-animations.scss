@@ -1,5 +1,14 @@
 .u-fade-in {
   animation: fade-in 2s forwards 1 ease-out;
+  opacity: 0;
+
+  &--delay-500 {
+    animation-delay: 0.5s;
+  }
+
+  &--delay-1500 {
+    animation-delay: 1.5s;
+  }
 }
 
 .u-text-color-animatable {

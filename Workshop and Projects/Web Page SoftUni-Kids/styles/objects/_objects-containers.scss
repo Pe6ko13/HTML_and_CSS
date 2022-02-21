@@ -25,8 +25,13 @@
 }
 
 .o-row-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: start;
   margin: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
 }

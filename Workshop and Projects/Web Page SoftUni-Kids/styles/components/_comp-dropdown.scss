@@ -19,6 +19,10 @@
     & i {
       margin-right: 12px;
     }
+
+    &:hover {
+      color: #41bead;
+    }
   }
 
   & a::after {
