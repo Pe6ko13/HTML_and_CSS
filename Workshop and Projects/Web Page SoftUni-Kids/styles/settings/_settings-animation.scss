@@ -7,3 +7,13 @@
     opacity: 1;
   }
 }
+
+@keyframes gray-to-orange {
+  0% {
+    color: #565656;
+  }
+
+  100% {
+    color: $secondary-color;
+  }
+}
