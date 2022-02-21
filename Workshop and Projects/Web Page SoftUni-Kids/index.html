@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0a45e4141c.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css" />
     <title>Document1</title>
   </head>
@@ -12,12 +16,26 @@
       <nav class="navbar">
         <div class="navbar__wraper container">
           <article class="navbar__logo">
-            <img
-              class="navbar__logo-triangle"
-              src="./assets/images/triangle.png"
-              alt="triangle"
-            />
-            <img src="./assets/images/logo.png" alt="logo" />
+            <div class="navbar__dropdown">
+              <div class="navbar__dropdown__pointer"></div>
+              <a href="#" class="navbar__dropdown__logo"
+                ><img src="./assets/images/logo.png" alt="logo"
+              /></a>
+            </div>
+            <div class="dropdown-menu">
+              <a href="#" class="softuni" title="SoftUni"
+                ><i class="fas fa-university"></i>SoftUni</a
+              >
+              <a href="#" class="softuni-digital" title="SoftUni Digital"
+                ><i class="fas fa-university"></i>SoftUni Digital</a
+              >
+              <a href="#" class="softuni-kids" title="SoftUni Kids"
+                ><i class="fas fa-university"></i>SoftUni Kids</a
+              >
+              <a href="#" class="softuni-creative" title="SoftUni Creative"
+                ><i class="fas fa-university"></i>SoftUni Creative</a
+              >
+            </div>
           </article>
           <ul class="navbar__elements">
             <li class="navbar__item">

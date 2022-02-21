@@ -8,14 +8,42 @@
     align-items: center;
   }
 
+  &__dropdown {
+    &__logo {
+      margin-left: 50px;
+    }
+
+    &__pointer {
+      position: relative;
+      z-index: 1;
+
+      &::after {
+        content: "\261E";
+        color: #ff9100;
+        font-size: 40px;
+        position: absolute;
+        margin-left: 6px;
+        top: -7px;
+      }
+    }
+  }
+
   &__logo {
     display: flex;
     align-items: center;
+    position: relative;
+    padding: 12px 0;
 
-    &-triangle {
-      width: 10px;
-      height: 16px;
-      margin-right: 16px;
+    &:hover {
+      cursor: pointer;
+      .navbar__dropdown__pointer::after {
+        content: "\261F";
+      }
+
+      .dropdown-menu {
+        display: block;
+        z-index: 2;
+      }
     }
   }
 
