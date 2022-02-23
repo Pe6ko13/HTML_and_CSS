@@ -423,6 +423,10 @@ select:hover {
   cursor: pointer;
 }
 
+#level {
+  padding-right: 40px;
+}
+
 li {
   list-style: none;
 }
@@ -899,7 +903,7 @@ a {
   height: 8px;
   display: inline-block;
   position: relative;
-  left: -60px;
+  left: -56px;
 }
 
 .filter__title {
@@ -1012,6 +1016,12 @@ a {
 .navbar__item a {
   text-transform: uppercase;
   color: #565656;
+}
+
+.navbar__item--search:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .dotted-line {

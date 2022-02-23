@@ -59,5 +59,10 @@
       color: #565656;
       // transition: color 0.3s ease-out;
     }
+
+    &--search:hover {
+      cursor: pointer;
+      transform: scale(1.5);
+    }
   }
 }

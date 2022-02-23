@@ -67,14 +67,14 @@
   font-weight: bold;
   font-size: 12px;
   line-height: 14px;
-}
 
-.card__label--gray {
-  background: #676781;
-}
+  &--gray {
+    background: #676781;
+  }
 
-.card__label--violet {
-  background: #9a5dc6;
+  &--violet {
+    background: #9a5dc6;
+  }
 }
 
 .card__content {
