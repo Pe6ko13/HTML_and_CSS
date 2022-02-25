@@ -114,6 +114,14 @@
   border-radius: 12px;
   text-align: center;
   padding: 24px;
+  transition: box-shadow 0.5s, transform 0.3s ease-out;
+  transform: scale(1);
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: $primary-shadow;
+    transform: scale(1.06);
+  }
 
   &__header h3 {
     display: inline-block;
