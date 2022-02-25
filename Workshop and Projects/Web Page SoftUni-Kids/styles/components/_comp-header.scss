@@ -11,4 +11,21 @@
 .header__info p {
   max-width: 53%;
   margin: 0 auto;
+  color: white;
+}
+
+// HEADER AFTER DOTTED LINE
+
+.course-programs {
+  margin: 125px auto;
+}
+
+.programs__description {
+  text-align: center;
+  margin: 0 auto 60px auto;
+  max-width: 60%;
+
+  &__title {
+    color: #41bead;
+  }
 }

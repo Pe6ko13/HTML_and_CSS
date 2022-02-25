@@ -36,6 +36,14 @@
   color: white;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
+
+  &--blue {
+    background-color: #44a9f8;
+  }
+
+  &--green {
+    background-color: #41bead;
+  }
 }
 
 .card__title {
@@ -43,14 +51,6 @@
   max-width: 360px;
   margin: 0 auto;
   padding: 60px 0 30px 0;
-}
-
-.card__header--blue {
-  background-color: #44a9f8;
-}
-
-.card__header--green {
-  background-color: #41bead;
 }
 
 .card__label {
@@ -80,12 +80,12 @@
 .card__content {
   text-align: center;
   padding: 20px 0 22px 0;
-}
 
-.card__content__info {
-  display: inline-block;
-  width: 40%;
-  margin: 6px 0;
+  &__info {
+    display: inline-block;
+    width: 40%;
+    margin: 6px 0;
+  }
 }
 
 .card__footer {
@@ -96,13 +96,51 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  &__price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fc4c50;
+  }
 }
 
-.card__footer__price {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 30px;
-  color: #fc4c50;
+// SOFT AND HARD PROGRAMS CARDS //
+
+.programs__card {
+  max-width: 48%;
+  border-radius: 12px;
+  text-align: center;
+  padding: 24px;
+
+  &__header h3 {
+    display: inline-block;
+    padding-left: 16px;
+    vertical-align: super;
+    margin-bottom: 0;
+  }
+
+  &__description p {
+    margin-bottom: 32px;
+  }
+
+  &--blue {
+    border: 4px solid #44a9f8;
+    background-color: #e3f3fd;
+
+    & h3 {
+      color: #44a9f8;
+    }
+  }
+
+  &--green {
+    border: 4px solid #00af9b;
+    background-color: #dff4f1;
+
+    & h3 {
+      color: #00af9b;
+    }
+  }
 }
