@@ -9,6 +9,7 @@
 @import "./styles/settings/_settings-mixins";
 
 @import "./styles/objects/_objects-containers";
+@import "./styles/objects/_objects-wrappers";
 
 @import "./styles/elements/_el-input-fields";
 @import "./styles/elements/_el-links";
@@ -28,3 +29,4 @@
 @import "./styles/components/_comp-popup";
 @import "./styles/components/_comp-level-label";
 @import "./styles/components/_comp-dropdown";
+@import "./styles/components/home_components/_comp-home-main";
