@@ -411,6 +411,19 @@ h5 {
   margin-bottom: 24px;
 }
 
+.o-page-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 83px 1fr 312px;
+      grid-template-rows: 83px 1fr 312px;
+}
+
+.o-page-content-wrapper {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 select {
   background: #fffefe;
   border: 1px solid #ff9100;
@@ -440,6 +453,14 @@ li {
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
+  max-height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .u-fade-in {
@@ -1125,7 +1146,7 @@ footer {
           align-items: center;
 }
 
-.navbar__dropdown__logo {
+.navbar__dropdown {
   margin-left: 50px;
 }
 
@@ -1138,7 +1159,7 @@ footer {
   color: #ff9100;
   font-size: 40px;
   position: absolute;
-  margin-left: 6px;
+  margin-left: -46px;
   top: -7px;
 }
 
@@ -1319,7 +1340,7 @@ footer {
 }
 
 .dropdown-menu a:hover {
-  color: #41bead;
+  color: black;
 }
 
 .dropdown-menu a::after {
@@ -1332,4 +1353,81 @@ footer {
   margin: 0 auto;
   opacity: 0.5;
   background-color: #fff;
+}
+
+.c-main-nav {
+  -webkit-box-shadow: 0px 3px 8px 0px #3d3d3d;
+          box-shadow: 0px 3px 8px 0px #3d3d3d;
+}
+
+.c-home-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 490px 565px 1180px 485px 170px 505px 330px 500px 480px 730px 1fr;
+      grid-template-rows: 490px 565px 1180px 485px 170px 505px 330px 500px 480px 730px 1fr;
+}
+
+.c-home-main__welcome-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(65, 190, 173, 0.9))), url("https://s3-alpha-sig.figma.com/img/4dce/3215/c519d3e9078c7cf24ad8ab581c429ba1?Expires=1647216000&Signature=HbXrupZKLzMEnDxPDlg32E9rLjSeUl8o9gPtzFS6tciOAvJRYf0~GRc5nB~9mk8JvO3rQvuU4T--n~YfYSoNYrQ5eZ-uil6NbxiK64mr2yAR9ZQ28eJwiihqD76w4sSakTCEphBp7zM2AQYuP1chNxrhyr3p26gU6vXvrH40fSZwBFDnyVPCc7guNDjKUr9fPU4uIteE5c~eLs~CHagNHTt5uTgaWQ8ZVdGBUncnBOubLX6i7MAhbWPLikUVbJIKLtgaXzlYFBZrC4pKJ4AHHdHavQD62Bh0BTm4CM4~JWGdSMlTXq1KyKuuemETFJlNClIbYPX8RHsDBe5YV573YA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA") no-repeat;
+  background: linear-gradient(rgba(65, 190, 173, 0.9)), url("https://s3-alpha-sig.figma.com/img/4dce/3215/c519d3e9078c7cf24ad8ab581c429ba1?Expires=1647216000&Signature=HbXrupZKLzMEnDxPDlg32E9rLjSeUl8o9gPtzFS6tciOAvJRYf0~GRc5nB~9mk8JvO3rQvuU4T--n~YfYSoNYrQ5eZ-uil6NbxiK64mr2yAR9ZQ28eJwiihqD76w4sSakTCEphBp7zM2AQYuP1chNxrhyr3p26gU6vXvrH40fSZwBFDnyVPCc7guNDjKUr9fPU4uIteE5c~eLs~CHagNHTt5uTgaWQ8ZVdGBUncnBOubLX6i7MAhbWPLikUVbJIKLtgaXzlYFBZrC4pKJ4AHHdHavQD62Bh0BTm4CM4~JWGdSMlTXq1KyKuuemETFJlNClIbYPX8RHsDBe5YV573YA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA") no-repeat;
+  background-size: 100% 140%;
+  color: white;
+  text-align: center;
+}
+
+.c-home-main__welcome-section .o-page-content-wrapper {
+  position: relative;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.c-home-main__welcome-section p {
+  color: white;
+}
+
+.c-home-main__about .o-page-content-wrapper--two__columns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.c-home-main__about__video {
+  width: 520px;
+  height: 344px;
+  border: 4px solid #41bead;
+  border-radius: 16px;
+}
+
+.c-home-main__about__video img {
+  border-radius: 12px;
+}
+
+.c-home-main__programs .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+}
+
+.c-home-main__programs__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.c-home-main__design .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.c-home-main__design__image {
+  max-width: 540px;
+  height: 290px;
 }

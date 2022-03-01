@@ -1,0 +1,10 @@
+.o-page-wrapper {
+  display: grid;
+  grid-template-rows: 83px 1fr 312px;
+}
+
+.o-page-content-wrapper {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
