@@ -1,0 +1,45 @@
+.block1,
+.block2,
+.block3,
+.block4 {
+  padding: 20px;
+  background-color: slategray;
+  font-size: 22px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.block1 {
+  grid-area: head;
+  background-color: orange;
+}
+
+.block2 {
+  grid-area: main;
+  background-color: lightblue;
+}
+
+.block3 {
+  grid-area: sidebar;
+  background-color: lightred;
+}
+
+.block4 {
+  grid-area: footer;
+  background-color: aquamarine;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "head head head head"
+    "main main . sidebar"
+    "footer footer footer footer";
+  grid-gap: 8px;
+  border: 2px solid black;
+  padding: 5px;
+}
