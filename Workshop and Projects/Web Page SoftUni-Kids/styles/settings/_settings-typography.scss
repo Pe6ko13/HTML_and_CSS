@@ -10,7 +10,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.h1-like,
+.h2-like,
+.h3-like,
+.h4-like {
   font-family: Montserrat, sans-serif;
 }
 
@@ -31,23 +35,37 @@ p {
   color: #565656;
 }
 
+.p--white {
+  color: #fff;
+}
+
 button {
   font-weight: 800;
 }
 
-h1 {
+h1,
+.h1-like {
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
 }
 
-h3 {
+h2,
+.h2-like {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+h3,
+.h3-like {
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
 }
 
-h4 {
+h4,
+.h4-like {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
