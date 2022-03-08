@@ -68,4 +68,152 @@
       height: 290px;
     }
   }
+
+  &__trainings {
+    background-color: $primary-300;
+    color: white;
+
+    .o-page-content-wrapper {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      height: 100%;
+    }
+
+    &__description {
+      margin-right: 125px;
+    }
+
+    & p {
+      color: white;
+    }
+  }
+
+  &__skills {
+    .o-page-content-wrapper {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      height: 100%;
+      align-items: center;
+    }
+
+    &__description {
+      margin: 0 auto;
+      width: 50%;
+      text-align: center;
+
+      & h1 {
+        color: $primary-300;
+      }
+    }
+
+    &__list {
+      display: grid;
+      grid-auto-flow: column;
+      justify-items: center;
+    }
+  }
+
+  &__testimonials {
+    background-color: $primary-300;
+
+    .o-page-content-wrapper {
+      height: 100%;
+      padding: 0 0 0 80px;
+    }
+
+    &-test {
+      display: grid;
+      grid-column-gap: 32px;
+      grid-template-columns: 140px 1fr;
+      height: 100%;
+      align-items: center;
+
+      &__image {
+        width: 140px;
+        height: 154px;
+        border-radius: 50%;
+
+        & img {
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  &__awards {
+    .o-page-content-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    &__title {
+      grid-column: 1 / span all;
+      color: $primary-300;
+    }
+
+    &-award {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+
+      &__image {
+        width: 110px;
+        height: 66px;
+      }
+    }
+  }
+
+  &__gallery {
+    .o-page-content-wrapper {
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: 32px;
+    }
+
+    &__title {
+      grid-column: 1 / 5;
+      justify-self: center;
+      color: $primary-300;
+      margin-top: 54px;
+    }
+
+    &__btn {
+      grid-column: 4;
+      align-self: center;
+      justify-self: end;
+      margin-bottom: 38px;
+    }
+
+    &__image {
+      height: 220px;
+
+      & img {
+        border-radius: 16px;
+      }
+    }
+  }
+
+  &__blog {
+    background-color: $blue-300;
+    border-top: 8px solid #92cdfb;
+
+    .o-page-content-wrapper {
+      display: grid;
+    }
+
+    &__cards-list {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: 32px;
+    }
+
+    &__btn {
+      justify-self: end;
+    }
+  }
 }

@@ -1,0 +1,38 @@
+footer {
+  background-color: #565656;
+  color: white;
+  border-top: 10px solid #919191;
+  max-height: 380px;
+  padding: 30 0 60 0;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+
+    &__list {
+      padding-left: 0;
+
+      & li {
+        margin-bottom: 16px;
+      }
+
+      & a {
+        color: white;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+}
+
+.footer img {
+  position: absolute;
+  top: -85px;
+}

@@ -1,0 +1,31 @@
+.header__info {
+  background-color: #ff9100;
+  color: white;
+  text-align: center;
+  padding: 80px 150px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.header__info p {
+  max-width: 53%;
+  margin: 0 auto 60px auto;
+  color: white;
+}
+
+// HEADER AFTER DOTTED LINE
+
+.course-programs {
+  margin: 135px auto;
+}
+
+.programs__description {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 60%;
+
+  &__title {
+    color: #41bead;
+  }
+}

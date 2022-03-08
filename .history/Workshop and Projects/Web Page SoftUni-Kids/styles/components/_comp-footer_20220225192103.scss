@@ -1,0 +1,42 @@
+footer {
+  background-color: #565656;
+  color: white;
+  border-top: 10px solid #919191;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+
+    &__list {
+      padding-left: 0;
+
+      & li {
+        margin-bottom: 16px;
+      }
+
+      & a {
+        color: white;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+}
+
+.softuni-kids {
+  max-width: 200px;
+  max-height: 250px;
+}
+
+.footer-img {
+  position: relative;
+  top: -85px;
+}

@@ -1,0 +1,23 @@
+@import "./styles/generic/generic-normalize.scss";
+
+@import "./styles/settings/settings-typography.scss";
+@import "./styles/settings/settings-colors.scss";
+@import "./styles/settings/settings-breakpoints.scss";
+@import "./styles/settings/settings-animation.scss";
+
+@import "./styles/objects/objects-containers.scss";
+
+@import "./styles/elements/el-input-fields.scss";
+@import "./styles/elements/el-links.scss";
+
+@import "./styles/utilities/utilities-centered.scss";
+@import "./styles/utilities/utilities-hidden.scss";
+
+@import "./styles/components/comp-button.scss";
+@import "./styles/components/comp-card.scss";
+@import "./styles/components/comp-filter.scss";
+@import "./styles/components/comp-footer.scss";
+@import "./styles/components/comp-header.scss";
+@import "./styles/components/comp-navigation.scss";
+@import "./styles/components/comp-program.scss";
+@import "./styles/components/comp-dotted-line.scss";

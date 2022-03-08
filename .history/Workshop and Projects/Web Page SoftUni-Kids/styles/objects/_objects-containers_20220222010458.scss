@@ -1,0 +1,33 @@
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.o-standard-box {
+  box-shadow: $primary-shadow;
+  border-radius: $primary-radius;
+  padding: 16px;
+
+  &--white {
+    background-color: white;
+  }
+
+  &--vertical {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  &--centered {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.o-row-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0;
+}

@@ -1,0 +1,49 @@
+.navbar {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 3px 4px rgba(0, 0, 0, 0.12),
+    0px 1px 5px rgba(0, 0, 0, 0.2);
+
+  &__wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__dropdown {
+    &:hover {
+      cursor: pointer;
+    }
+
+    &::after {
+      content: "&#x45";
+    }
+
+    &-triangle {
+      width: 10px;
+      height: 16px;
+      margin-right: 16px;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__elements {
+    display: flex;
+  }
+
+  &__item {
+    margin: 15px 32px;
+
+    a {
+      text-transform: uppercase;
+      color: #565656;
+      transition: color 0.3s ease-out;
+
+      &:hover {
+        color: #ff9100;
+      }
+    }
+  }
+}

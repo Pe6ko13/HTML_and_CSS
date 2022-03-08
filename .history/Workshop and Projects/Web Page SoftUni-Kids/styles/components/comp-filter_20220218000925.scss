@@ -1,0 +1,51 @@
+.filter--wrapper {
+  background-color: #f8f8f8;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter__label::after {
+  content: "";
+  background-image: url(https://banner2.cleanpng.com/20180712/lej/kisspng-arrow-down-computer-icons-drop-down-list-pfeil-symbol-5b47f7e7686699.9674250915314431754276.jpg);
+  width: 12px;
+  height: 8px;
+  display: inline-block;
+  position: relative;
+  left: -35px;
+}
+
+.filter__label--level::after {
+  content: "";
+  background: url(https://banner2.cleanpng.com/20180712/lej/kisspng-arrow-down-computer-icons-drop-down-list-pfeil-symbol-5b47f7e7686699.9674250915314431754276.jpg);
+  width: 12px;
+  height: 8px;
+  display: inline-block;
+  position: relative;
+  left: -60px;
+}
+
+.filter__title {
+  color: #565656;
+}
+
+.filter__label-img {
+  position: relative;
+  top: 8px;
+  right: 15px;
+}
+
+.filter__label-img--info {
+  position: relative;
+  top: 5px;
+  left: 8px;
+}
+
+.filter__label-img--info:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 3px 1px orange;
+  border-radius: 50%;
+}

@@ -1,0 +1,11 @@
+.c-popup {
+  position: relative;
+
+  &__trigger {
+  }
+
+  &__bubble {
+    position: absolute;
+    min-width: 390px;
+  }
+}

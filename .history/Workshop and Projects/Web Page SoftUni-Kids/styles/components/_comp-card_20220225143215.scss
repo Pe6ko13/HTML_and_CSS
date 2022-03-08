@@ -1,0 +1,127 @@
+.cards--wraper {
+  margin: 60px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+
+  @include for-phone-only {
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: $primary-shadow;
+  border-radius: 12px;
+  width: 32%;
+  height: 380px;
+  transition: box-shadow 0.5s, transform 0.3s ease-out;
+  transform: scale(1);
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    box-shadow: $primary-shadow;
+    transform: scale(1.06);
+  }
+
+  @include for-phone-only {
+    margin: 140px auto;
+  }
+}
+
+.card__header {
+  min-height: 162px;
+  color: white;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+
+  &--blue {
+    background-color: #44a9f8;
+  }
+
+  &--green {
+    background-color: #41bead;
+  }
+}
+
+.card__title {
+  text-align: center;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 60px 0 30px 0;
+}
+
+.card__label {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14), 0px 2px 2px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  color: white;
+  width: fit-content;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+
+  &--gray {
+    background: #676781;
+  }
+
+  &--violet {
+    background: #9a5dc6;
+  }
+}
+
+.card__content {
+  text-align: center;
+  padding: 20px 0 22px 0;
+
+  &__info {
+    display: inline-block;
+    width: 40%;
+    margin: 6px 0;
+  }
+}
+
+.card__footer {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fc4c50;
+  }
+}
+
+// SOFT AND HARD PROGRAMS CARDS //
+
+.programs__card {
+  max-width: 40%;
+  border-radius: 12px;
+  text-align: center;
+  padding: 35px;
+
+  &--blue {
+    border: 4px solid #44a9f8;
+    background-color: #e3f3fd;
+  }
+
+  &--green {
+    border: 4px solid #00af9b;
+    background-color: #dff4f1;
+  }
+}

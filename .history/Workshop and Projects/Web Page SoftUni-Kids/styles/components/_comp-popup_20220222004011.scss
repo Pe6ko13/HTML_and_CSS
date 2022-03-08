@@ -1,0 +1,39 @@
+.c-popup {
+  position: relative;
+
+  &__trigger {
+    &:hover {
+      + .c-popup__bubble {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+      }
+    }
+  }
+
+  &__bubble {
+    @include horizontal-center-absolute;
+
+    position: absolute;
+    min-width: 390px;
+    top: -190px;
+    left: 39px;
+    transform: translateX(-50%) scale(0);
+    opacity: 0;
+    transition: transform 0.4s, opacity 0.5s ease-out;
+    transform-origin: bottom center;
+
+    &::after {
+      @include horizontal-center-absolute;
+      content: "";
+      position: absolute;
+      box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      bottom: -10px;
+      left: 185px;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent #fff #fff transparent;
+    }
+  }
+}

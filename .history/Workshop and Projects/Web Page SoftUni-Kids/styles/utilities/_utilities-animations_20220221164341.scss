@@ -1,0 +1,23 @@
+.u-fade-in {
+  animation: fade-in 2s forwards 1 ease-out;
+}
+
+.u-text-color-animatable {
+  &:hover {
+    .character {
+      animation-name: gray-to-orange;
+    }
+  }
+
+  .character {
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+
+  @for $i from 1 to 50 {
+    .character:nth-child(#{$i}) {
+      animation-delay: 0.1s * $i;
+    }
+  }
+}

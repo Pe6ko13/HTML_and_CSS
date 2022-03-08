@@ -1,0 +1,16 @@
+.dropdown-menu {
+  display: flex;
+  background-color: ;
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: -2px;
+  min-width: 193px;
+  box-shadow: 0 8px 16px 0 rgb(207, 207, 207);
+
+  & a {
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+  }
+}

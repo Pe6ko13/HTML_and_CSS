@@ -766,6 +766,13 @@ img {
   font-size: 16px;
 }
 
+.btn--secondary--inverted {
+  border: 1px solid #ff9100;
+  color: #ff9100;
+  background-color: transparent;
+  padding: 10px 26px;
+}
+
 .cards--wraper {
   margin: 60px 0;
 }
@@ -946,6 +953,23 @@ img {
 
 .programs__card--green h3 {
   color: #00af9b;
+}
+
+.c-blog-card {
+  border-radius: 4px;
+}
+
+.c-blog-card__header {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 155px;
+}
+
+.c-blog-card__main {
+  background: #fff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .filter--wrapper {
@@ -1430,4 +1454,186 @@ footer {
 .c-home-main__design__image {
   max-width: 540px;
   height: 290px;
+}
+
+.c-home-main__trainings {
+  background-color: #41bead;
+  color: white;
+}
+
+.c-home-main__trainings .o-page-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.c-home-main__trainings__description {
+  margin-right: 125px;
+}
+
+.c-home-main__trainings p {
+  color: white;
+}
+
+.c-home-main__skills .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-home-main__skills__description {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.c-home-main__skills__description h1 {
+  color: #41bead;
+}
+
+.c-home-main__skills__list {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+}
+
+.c-home-main__testimonials {
+  background-color: #41bead;
+}
+
+.c-home-main__testimonials .o-page-content-wrapper {
+  height: 100%;
+  padding: 0 0 0 80px;
+}
+
+.c-home-main__testimonials-test {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 32px;
+  -ms-grid-columns: 140px 1fr;
+      grid-template-columns: 140px 1fr;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-home-main__testimonials-test__image {
+  width: 140px;
+  height: 154px;
+  border-radius: 50%;
+}
+
+.c-home-main__testimonials-test__image img {
+  border-radius: 50%;
+}
+
+.c-home-main__awards .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.c-home-main__awards__title {
+  grid-column: 1 / span all;
+  color: #41bead;
+}
+
+.c-home-main__awards-award {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-home-main__awards-award__image {
+  width: 110px;
+  height: 66px;
+}
+
+.c-home-main__gallery .o-page-content-wrapper {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 32px;
+}
+
+.c-home-main__gallery__title {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / 5;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: #41bead;
+  margin-top: 54px;
+}
+
+.c-home-main__gallery__btn {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin-bottom: 38px;
+}
+
+.c-home-main__gallery__image {
+  height: 220px;
+}
+
+.c-home-main__gallery__image img {
+  border-radius: 16px;
+}
+
+.c-home-main__blog {
+  background-color: #66b9f8;
+  border-top: 8px solid #92cdfb;
+}
+
+.c-home-main__blog .o-page-content-wrapper {
+  display: -ms-grid;
+  display: grid;
+}
+
+.c-home-main__blog__cards-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 32px;
+}
+
+.c-home-main__blog__btn {
+  -ms-grid-column-align: end;
+      justify-self: end;
 }

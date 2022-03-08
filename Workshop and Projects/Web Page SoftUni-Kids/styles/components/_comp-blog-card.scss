@@ -1,0 +1,13 @@
+.c-blog-card {
+  border-radius: $primary-radius;
+
+  &__header {
+    object-fit: cover;
+    height: 155px;
+  }
+
+  &__main {
+    background: #fff;
+    flex: 1;
+  }
+}

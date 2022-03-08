@@ -1,0 +1,11 @@
+.dotted-line {
+  margin: 32, 0;
+
+  hr {
+    border: none;
+    border-top: 5px dotted #dff4f1;
+    color: #dff4f1;
+    height: 2px;
+    width: 90%;
+  }
+}

@@ -1,0 +1,20 @@
+footer {
+  background-color: #565656;
+  color: white;
+  border-top: 10px solid #919191;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+
+  &__nav {
+    display: flex;
+  }
+}
+
+.one-eye-img {
+  position: absolute;
+  top: 10px;
+}
